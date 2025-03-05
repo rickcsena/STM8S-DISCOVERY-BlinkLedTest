@@ -1,52 +1,40 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+# Compiled Object files
+*.lkf
 *.hex
+*.s19
+*.out
+*.elf
+*.obj
+*.lst
+*.map
+*.asm
+*.cod
+*.eep
+*.mem
+*.sym
+*.rel
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Temporary files
+*.bak
+*.tmp
+*.~*
+*.err
+*.log
+*.dmp
+*.dep
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# STVD Project files temp
+*.stw.user
+*.stp.user
+*.stprj
+*.stw-workspace
+*.stprj-workspace
+
+# Other build artifacts
+build/
+Debug/
+Release/
+
+# OS generated files
+.DS_Store
+Thumbs.db
